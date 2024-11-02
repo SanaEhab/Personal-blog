@@ -39,14 +39,13 @@ body{
 }
 a{
     color: #3B1E54;
-    font-weight: 800;
-    font-style: oblique;
+    /* font-weight: 800; */
+    /* font-style: oblique; */
     text-decoration: none;
 }
 .header-content{
     margin-top: 24px;
     color: #3B1E54;
-    font-style: italic;
 }
 .header-content img{
     mix-blend-mode: multiply;
@@ -58,7 +57,6 @@ a{
     text-align: center;
     text-transform: uppercase;
     padding-top: 10px ;
-    font-style: italic;
     color: #3B1E54;
 }
 

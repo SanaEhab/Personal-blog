@@ -30,10 +30,8 @@
     align-items: center;
 }
 .contact-info span{
-    text-decoration: underline;
     font-size: 24px;
     color: #3B1E54;
-    font-style: oblique;
     margin-bottom: 15px;
 }
 
@@ -47,7 +45,6 @@
     flex-direction: column;
     align-items:center;
     color: #3B1E54;
-    font-style: italic;
 }
 .info-about-section article{
     margin: 10px 10px 10px 50px;
