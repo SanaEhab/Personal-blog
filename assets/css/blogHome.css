@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header-section{
+    background-image: url('../image/welcome.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+
+.logo-section img{
+    height: 120px;
+    padding-right: 50px;
+    mix-blend-mode: multiply;
+}
+.navLinks{
+    width: 40%;
+}
+.navLinks ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+
+}
+.navLinks ul li{
+    width: 100px;
+}
+a{
+    color: #3B1E54;
+    font-weight: 800;
+    font-style: oblique;
+    text-decoration: none;
+}
+.header-content{
+    margin-top: 24px;
+    color: #3B1E54;
+    font-style: italic;
+}
+.header-content img{
+    mix-blend-mode: multiply;
+}
+.blog-section{
+    padding: 30px;
+}
+.blog-title{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px ;
+    font-style: italic;
+    color: #3B1E54;
+}
+
+.blog-content{
+    padding-right: 10px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    
+}
+.blogs{
+    border: 2px solid rgb(0, 0, 0, 0.2);
+}
+.blog-name{
+    text-align: center;
+}
+.blogs .blog-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.blog-details img{
+    width: 80%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.blog-details button{
+    background-color: #CDC1FF;
+    border: transparent;
+    border-radius: 5px;
+    padding: 10px 5px;
+    margin: 30px 0;
+}
+footer{
+    background-color: #CDC1FF;
+    color: #3B1E54;
+    text-align: center;
+    padding: 10px;
+}
