@@ -4,7 +4,7 @@
     margin: auto;
 }
 .about-section{
-    padding: 24px;
+    padding: 30px;
 }
 .about-section .info-section{
     width: 100%;
@@ -12,9 +12,16 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
-.about-section .info-section img{
+.about-section .info-section figure {
     width: 50%;
+}
+.info-section figure img{
+    width: 100%;
     border-radius: 50px 50px;
+}
+.info-section figure figcaption{
+   text-align: center;
+   color: darkgray;
 }
 .about-section .info-section .contact-info{
     display: flex;
@@ -38,11 +45,18 @@
 .info-about-section{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     color: #3B1E54;
     font-style: italic;
 }
-.info-about-section p{
-    text-align: center;
-    margin: 10px 30px;
+.info-about-section article{
+    margin: 10px 10px 10px 50px;
+}
+footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.contact-list{
+    padding: 20px;
 }

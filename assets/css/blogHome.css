@@ -70,6 +70,9 @@ a{
     grid-template-rows: auto auto;
     
 }
+.blog-content span{
+    color: darkgray;
+}
 .blogs{
     border: 2px solid rgb(0, 0, 0, 0.2);
 }
