@@ -1,59 +1,59 @@
-.header-content p{
-    text-align: center;
-    width: 50%;
-    margin: auto;
+.header-content p {
+  text-align: center;
+  width: 50%;
+  margin: auto;
 }
-.about-section{
-    padding: 30px;
+.about-section {
+  padding: 30px;
 }
-.about-section .info-section{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.about-section .info-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 .about-section .info-section figure {
-    width: 50%;
+  width: 50%;
 }
-.info-section figure img{
-    width: 100%;
-    border-radius: 50px 50px;
+.info-section figure img {
+  width: 100%;
+  border-radius: 50px 50px;
 }
-.info-section figure figcaption{
-   text-align: center;
-   color: darkgray;
+.info-section figure figcaption {
+  text-align: center;
+  color: darkgray;
 }
-.about-section .info-section .contact-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.about-section .info-section .contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.contact-info span{
-    font-size: 24px;
-    color: #3B1E54;
-    margin-bottom: 15px;
+.contact-info span {
+  font-size: 24px;
+  color: #3b1e54;
+  margin-bottom: 15px;
 }
 
-.contact-info a i{
-    background-color: #FFCCEA;
-    padding: 15px 15px;
-    border-radius: 50%;
+.contact-info a i {
+  background-color: #ffccea;
+  padding: 15px 15px;
+  border-radius: 50%;
 }
-.info-about-section{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    color: #3B1E54;
+.info-about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #3b1e54;
 }
-.info-about-section article{
-    margin: 10px 10px 10px 50px;
+.info-about-section article {
+  margin: 10px 10px 10px 50px;
 }
-footer{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
+footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
 }
-.contact-list{
-    padding: 20px;
+.contact-list {
+  padding: 20px;
 }
